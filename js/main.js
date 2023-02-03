@@ -60,6 +60,7 @@ function startTime(){
      $('[data-fancybox]').fancybox({
 
         AnimationEffect: "slide" 
+        
 
      });
 
