@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <title>Cachureando</title>
 </head>
 <body>
@@ -50,11 +53,81 @@
         <!--Main content-->
 
 
-        <!--Footer-->
+        <!--Galeria de Imagenes-->
+        <div class="col bg-header-color my-2"><h2 class="text-color-letra">Galería de imagenes</h2></div>
+        <div class="contenedor">
+          <a href="/img/productos/1.webp" data-fancybox="gallery" data-caption="Gorro Azul 5.000">
+              <img src="/img/productos/1.webp" width="300"  alt="" bg-letra>
+          </a> 
+          <a href="/img/productos/2.webp" data-fancybox="gallery" data-caption="Gorro Niña 5.000">
+              <img src="/img/productos/2.webp" width="300" alt="">
+          </a>
+          <a href="/img/productos/3.webp" data-fancybox="gallery" data-caption="Conejito 9.500">
+              <img src="/img/productos/3.webp" width="300" alt="">
+          </a>
+          <a href="/img/productos/8.webp" data-fancybox="gallery" data-caption="Piluchos 8.500">
+              <img src="/img/productos/8.webp" width="300" alt="">
+          </a>
+          <a href="/img/productos/5.webp" data-fancybox="gallery" data-caption="Baberos 6.500">
+              <img src="/img/productos/5.webp" width="300" alt="">
+          </a>
+          <a href="/img/productos/6.webp" data-fancybox="gallery" data-caption="Tuto-Babero 12.990">
+              <img src="/img/productos/6.webp" width="300" alt="">
+          </a>
+      </div>
 
+
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="row align-items-center justify-content-center text-center " >             
+              <div class="text-letra" id="reloj" style="font-size:10px;"></div>    
+              <div class="text-letra" id="fecha" style="font-size:10px;"></div>
+            </div>
+                <div class="col-xs-12 col-md-6 text-left">
+                    <h6 class="text-letra lead">CONTACTO:</h6>
+                    <h6 class="text-letra">
+                    Arlegui 330<br>
+                    Viña del Mar.<br>
+                    Teléfonos: +56 32 28854211 – +56 32 28854330.<br>
+                    </h6>
+                </div>
+                
+                
+     
+                <div class="col-xs-12 col-md-6 text-right">
+                    <h6 class="text-letra lead">ENCUENTRANOS EN LAS REDES</h6>
+                    <div class="redes-footer">
+                      <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+                      <a href="https://www.instagram.com/"><img src="img/Instagram.png"></a>
+                    </div>
+ 
+                </div>
+
+ 
+            </div>
+            <div class="row"> 
+        
+                <div class="col-md-12 text-right">
+                    <p class="text-letra small">Equipo Cachureando @2023.<br> Todos los derechos reservados.</p>
+                </div>
+                
+            </div>
+        
+            </div>
+          </div>  
+        </div>
+        </footer>
 
     
 
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>-->
+    
+    <script src="./js/main.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
 </body>
 </html>
