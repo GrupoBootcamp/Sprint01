@@ -6418,7 +6418,9 @@ textarea.form-control-lg {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-item-next:not(.carousel-item-start),
