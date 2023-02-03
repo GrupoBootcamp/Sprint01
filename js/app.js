@@ -2,19 +2,15 @@
 
 const Allstar = document.querySelectorAll('.star');
 const valor = document.querySelector('#valor');
-console.log(Allstar);
+const resultado = document.querySelector('.m-valor');
+//console.log(Allstar);
 
 Allstar.forEach((star, i) =>{
 
-
     star.onclick = function(){
 
-        console.log(star);
-        //controlamos la estrella actual
+        //definicion de variable control
         let starActual = i+1;
-        //console.log(star);
-        //console.log(i);
-        console.log(starActual);
 
        Allstar.forEach((star,j)=>{
 
@@ -28,9 +24,44 @@ Allstar.forEach((star, i) =>{
 
                 star.innerHTML = '&#9734';
                 valor.textContent = starActual;
+        
             }
 
         });
+
+        calc(starActual);
     }
 
 });
+
+function calc(actual, mensaje){
+
+    let x = actual;
+
+    switch(true){
+
+        case (x<=3):mostrarHtml('Muy deficiente');
+                    break;
+        case (x>3 && x<=5): mostrarHtml('Insuficiente');
+                     break;
+        case (x>5 && x<=6): mostrarHtml('Suficiente');
+                    break;
+        case (x>6 && x<=7): mostrarHtml('Bien');
+                    break;
+        case (x>7 && x<=9): mostrarHtml('Notable');
+                    break;
+        case (x>9): mostrarHtml('Sobresaliente');
+                    break;
+        default: mostrarHtml('Seleccione una opción');
+                break
+    }
+
+}
+
+function mostrarHtml(valor){
+
+
+    resultado.textContent = valor;
+
+    
+}

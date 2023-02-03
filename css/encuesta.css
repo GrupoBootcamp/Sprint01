@@ -1,1 +1,23 @@
+#encuesta{
 
+    background-color: rgba(250, 222, 207, 0.5);
+    transition: all 0.5s;
+    
+}
+
+#encuesta:hover{
+
+    background-color: rgba(250, 222, 207, 1);
+
+}
+
+
+.navbar{
+
+    position: fixed;
+    top:0%;
+    left: 0%;
+    right:100%;
+    width: 100%;;
+
+}
