@@ -58,7 +58,9 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 6,
-  7: $spacer * 9, 
+  7: $spacer * 9,
+  8: $spacer * 16,
+  9: $spacer * 20, 
 );
 
 @import"./node_modules/bootstrap/scss/bootstrap.scss"
