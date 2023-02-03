@@ -6292,6 +6292,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  background-color: #F4FAC3;
 }
 .carousel-inner::after {
   display: block;
@@ -6321,6 +6322,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .carousel-item-next:not(.carousel-item-start),
