@@ -265,6 +265,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+  margin-left: 3rem;
 }
 
 p {
@@ -13718,7 +13719,7 @@ footer {
 	background-color:#F4FAC3;
 	height: 50%;
   color: bg-fondo;
-  padding: 15px;
+ /*padding: 15px;*/
 }
 
 .main1 { 
