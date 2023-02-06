@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <title>Cachureando</title>
 </head>
-<body>
+<body class="bg-fondo">
 
         <!-- Header -->
         <nav class="navbar navbar-expand-lg bg-fondo">
@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-6 me-auto  mb-4 mb-lg-0">
+                <ul class="navbar-nav ms-0 ms-md-6 me-0 me-md-auto  mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
                   <li class="nav-item mx-4">
                     <a class="nav-link active text-letra fs-5" aria-current="page" href="#">Inicio</a>
                   </li>
@@ -44,7 +44,7 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
@@ -81,40 +81,76 @@
       </section>
 
         <!--Galeria de Imagenes-- font_family-->
-        <div class="col bg-header-color my-2"><h2 class="text-color-letra">Galería de imagenes</h2></div>
-        <div class="contenedor" class="text-color-letra">
-          <a href="/img/productos/1.webp" data-fancybox="gallery" data-caption="Gorro Azul 5.000">
-              <img src="/img/productos/1.webp" width="300"  alt="" >
-          </a> 
-          <a href="/img/productos/2.webp" data-fancybox="gallery" data-caption="Gorro Niña 5.000">
-              <img src="/img/productos/2.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/3.webp" data-fancybox="gallery" data-caption="Conejito 9.500">
-              <img src="/img/productos/3.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/8.webp" data-fancybox="gallery" data-caption="Piluchos 8.500">
-              <img src="/img/productos/8.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/6.webp" data-fancybox="gallery" data-caption="Tuto-Babero 12.990">
-              <img src="/img/productos/6.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/13.webp" data-fancybox="gallery" data-caption="Cuento 1 12.990">
-            <img src="/img/productos/13.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/14.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
-            <img src="/img/productos/14.webp" width="300" alt="">
-          </a>
-          <a href="/img/productos/15.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
-            <img src="/img/productos/15.webp" width="300" alt="">
-          </a>  
-          <a href="/img/productos/16.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
-            <img src="/img/productos/16.webp" width="300" alt="">
-          </a>  
-          <a href="/img/productos/17.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
-            <img src="/img/productos/17.webp" width="300" alt="">
-          </a>          
-      </div>
+      <div class="row my-6 my-md-8">
+        <div class="col bg-12 header-color my-2"><h2 class="text-letra text-center bg-puente">Galería de imagenes</h2></div>
+          <div class="contenedor" class="text-color-letra">
+          
+          <div class="row align-items-center text-center ">
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/1.webp" data-fancybox="gallery" data-caption="Gorro Azul 5.000">
+                  <img src="/img/productos/1.webp" width="300"  alt="" class="img-fluid">
+              </a> 
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/2.webp" data-fancybox="gallery" data-caption="Gorro Niña 5.000">
+                  <img src="/img/productos/2.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
 
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/3.webp" data-fancybox="gallery" data-caption="Conejito 9.500">
+                  <img src="/img/productos/3.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
+
+              <div class="col-6 col-md-4">
+              <a href="/img/productos/8.webp" data-fancybox="gallery" data-caption="Piluchos 8.500">
+                  <img src="/img/productos/8.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
+            
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/6.webp" data-fancybox="gallery" data-caption="Tuto-Babero 12.990">
+                  <img src="/img/productos/6.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/13.webp" data-fancybox="gallery" data-caption="Cuento 1 12.990">
+                <img src="/img/productos/13.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
+            
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/14.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
+                <img src="/img/productos/14.webp" width="300" alt="" class="img-fluid">
+              </a>
+            </div>
+
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/15.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
+                <img src="/img/productos/15.webp" width="300" alt="" class="img-fluid">
+              </a>  
+            </div>
+
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/16.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
+                <img src="/img/productos/16.webp" width="300" alt="" class="img-fluid"> 
+              </a>  
+            </div>
+
+            <div class="col-6 col-md-4">
+              <a href="/img/productos/17.webp" data-fancybox="gallery" data-caption="Cuento 2 12.990">
+                <img src="/img/productos/17.webp" width="300" alt="" class="img-fluid">
+              </a>          
+            </div>
+          </div> 
+        </div>
+     </div>
+
+
+      <!-- Footer -->
       <footer>
         <div class="container">
           <div class="row">
@@ -136,7 +172,7 @@
               <h6 class="text-letra lead">ENCUENTRANOS EN LAS REDES</h6>
               <div class="redes-footer">
                 <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
-                <a href="https://www.instagram.com/"><img src="img/Instagram.png"></a>
+                <a href="https://www.instagram.com/"><img src="/img/instagram.png"></a>
               </div>
               <div class="col-md-12 col-md-6 text-center">
                 <p class="text-letra small">Equipo Cachureando @2023v. Todos los derechos reservados.</p>
