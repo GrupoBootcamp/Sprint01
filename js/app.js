@@ -3,7 +3,6 @@
 const Allstar = document.querySelectorAll('.star');
 const valor = document.querySelector('#valor');
 const resultado = document.querySelector('.m-valor');
-//console.log(Allstar);
 
 Allstar.forEach((star, i) =>{
 
@@ -14,7 +13,7 @@ Allstar.forEach((star, i) =>{
 
        Allstar.forEach((star,j)=>{
 
-        //si la estrella actual es mayor 
+        
             if(starActual >= j+1 ) {
 
                 star.innerHTML = '&#9733';
