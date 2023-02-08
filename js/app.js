@@ -4,6 +4,8 @@ const Allstar = document.querySelectorAll('.star');
 const valor = document.querySelector('#valor');
 const resultado = document.querySelector('.m-valor');
 
+console.log(Allstar);
+
 Allstar.forEach((star, i) =>{
 
     star.onclick = function(){
@@ -16,12 +18,12 @@ Allstar.forEach((star, i) =>{
         
             if(starActual >= j+1 ) {
 
-                star.innerHTML = '&#9733';
+                star.innerHTML = '&#9733'; //unicode de estrtella con relleno
                 valor.textContent = starActual;
 
             }else{
 
-                star.innerHTML = '&#9734';
+                star.innerHTML = '&#9734'; //unicode de estrella sin relleno
                 valor.textContent = starActual;
         
             }
@@ -33,7 +35,7 @@ Allstar.forEach((star, i) =>{
 
 });
 
-function calc(actual, mensaje){
+function calc(actual){
 
     let x = actual;
 
