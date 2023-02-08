@@ -54,11 +54,12 @@
                  <div class="left"></div>
                  <div class="right">
                       <h2>Contactanos</h2>
-                      <input type="text" class="field" placeholder="Nombre">
-                      <input type="email" class="field" placeholder="Correo">
-                      <input type="text" class="field" placeholder="Numero telefonico">
-                      <textarea placeholder="Escribe un mensaje" class="field"></textarea>
-                      <button class="btn bg-letra text-light">Enviar</button>
+                      <input type="text" class="field" name="nombre" placeholder="Nombre" id="nombre">
+                      <input type="email" class="field" placeholder="Correo" id="correo">
+                      <input type="text" class="field" placeholder="Numero telefonico" id="telefono"> 
+                      <textarea placeholder="Escribe un mensaje" class="field" id="texto"></textarea>
+                      <button class="btn bg-letra text-light" id="enviar">Enviar</button>
+                 <div><p class="errorMensaje mt-3"></p></div>
                 </div>
             </div>
        </div>
@@ -96,6 +97,7 @@
             </footer>
        </div>  
       <!-- Fin Footer -->
+    <script src="/js/contacto.js"></script>
     <script src="./js/main.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
